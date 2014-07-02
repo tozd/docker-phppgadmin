@@ -1,0 +1,19 @@
+server {
+    listen 80 default_server;
+    server_name _;
+
+    root /usr/share;
+
+    location / {
+        return 503;
+    }
+
+    location /phppgadmin {
+        index index.php;
+    }
+
+    location ~ \.php$ {
+        try_files $uri =404;
+        include fastcgi_php;
+    }
+}
