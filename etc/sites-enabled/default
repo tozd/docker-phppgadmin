@@ -5,7 +5,7 @@ server {
     root /usr/share;
 
     location / {
-        return 503;
+        return 404;
     }
 
     location /phppgadmin {
