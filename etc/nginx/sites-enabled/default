@@ -16,4 +16,8 @@ server {
         try_files $uri =404;
         include fastcgi_php;
     }
+
+    location ~ /\. {
+        return 403;
+    }
 }
