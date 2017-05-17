@@ -15,10 +15,10 @@
 
 	// Hostname or IP address for server.  Use '' for UNIX domain socket.
 	// use 'localhost' for TCP/IP connection on this computer
-	$conf['servers'][0]['host'] = 'pgsql';
+	$conf['servers'][0]['host'] = getenv('PHPPGADMIN_HOST', true) ?: 'pgsql';
 
 	// Database port on server (5432 is the PostgreSQL default)
-	$conf['servers'][0]['port'] = 5432;
+	$conf['servers'][0]['port'] = intval(getenv('PHPPGADMIN_PRT', true) ?: '5432');
 
 	// Database SSL mode
 	// Possible options: disable, allow, prefer, require
