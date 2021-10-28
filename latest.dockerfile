@@ -1,4 +1,4 @@
-FROM tozd/php:5.5
+FROM registry.gitlab.com/tozd/docker/php:5.5
 
 ENV PHPPGADMIN_HOST pgsql
 ENV PHPPGADMIN_PORT 5432
