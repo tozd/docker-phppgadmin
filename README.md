@@ -10,7 +10,7 @@ Available as:
 ## Description
 
 Image extending [tozd/php](https://gitlab.com/tozd/docker/php) image with [phpPgAdmin](https://github.com/phppgadmin/phppgadmin).
-It is intended to be used for a installation-wide web admin where each user sees databases they have access to.
+By default It is intended to be used for a installation-wide web admin where each user sees databases they have access to, but you can configure it differently, too.
 
 To configure to which database to connect, use environment variables:
 
