@@ -4,8 +4,8 @@
 
 Available as:
 
-* [`tozd/phppgadmin`](https://hub.docker.com/r/tozd/phppgadmin)
-* [`registry.gitlab.com/tozd/docker/phppgadmin`](https://gitlab.com/tozd/docker/phppgadmin/container_registry)
+- [`tozd/phppgadmin`](https://hub.docker.com/r/tozd/phppgadmin)
+- [`registry.gitlab.com/tozd/docker/phppgadmin`](https://gitlab.com/tozd/docker/phppgadmin/container_registry)
 
 ## Description
 
@@ -14,5 +14,5 @@ By default It is intended to be used for a installation-wide web admin where eac
 
 To configure to which database to connect, use environment variables:
 
-* `PHPPGADMIN_HOST` – hostname of the database, default `pgsql`
-* `PHPPGADMIN_PORT` – port of the database, default `5432`
+- `PHPPGADMIN_HOST` – hostname of the database, default `pgsql`
+- `PHPPGADMIN_PORT` – port of the database, default `5432`
