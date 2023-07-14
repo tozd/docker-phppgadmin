@@ -1,7 +1,7 @@
 FROM registry.gitlab.com/tozd/docker/php:8.2
 
-ENV PHPPGADMIN_HOST pgsql
-ENV PHPPGADMIN_PORT 5432
+ENV PHPPGADMIN_HOST=pgsql
+ENV PHPPGADMIN_PORT=5432
 
 RUN apt-get update -q -q && \
   apt-get install phppgadmin --yes --force-yes && \
