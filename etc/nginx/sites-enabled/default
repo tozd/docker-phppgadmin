@@ -8,12 +8,12 @@ server {
         return 404;
     }
 
-    location /phppgadmin {
-        index index.php;
-    }
-
     location ~ /\. {
         return 403;
+    }
+
+    location /phppgadmin {
+        index index.php;
     }
 
     location ~ \.php$ {
