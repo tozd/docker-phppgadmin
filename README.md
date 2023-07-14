@@ -23,7 +23,7 @@ Available as:
 ## Description
 
 Image provides [phpPgAdmin](https://github.com/phppgadmin/phppgadmin).
-When the container runs it is available at `/phppgadmin/` URL.
+When the container runs phpPgAdmin is available at `/phppgadmin/` URL.
 
 By default it is intended to be used for a installation-wide web admin where each user sees databases they have access to, but you can configure it differently, too (you can mount a file or extend the image to modify the `/etc/phppgadmin/config.inc.php` file).
 
