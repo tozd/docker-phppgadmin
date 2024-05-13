@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/tozd/docker/php:8.2
+FROM registry.gitlab.com/tozd/docker/php:8.3
 
 ENV PHPPGADMIN_HOST=pgsql
 ENV PHPPGADMIN_PORT=5432
