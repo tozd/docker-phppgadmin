@@ -13,7 +13,7 @@ Available as:
 
 ## Tags
 
-- `latest`: phpPgAdmin v7.13.0
+- `latest`: phpPgAdmin v7.14.7
 
 ## Variables
 
